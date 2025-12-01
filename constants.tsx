@@ -15,10 +15,10 @@ import { Experience, Project, Education, Certification, SkillCategory, SocialLin
 export const PROFILE = {
   name: "Prathamesh Hendre",
   title: "Software Engineer",
-  tagline: "Full-Stack Development | Java, .NET, Spring Boot, React",
+  tagline: "Software Engineer at MRI Software | Prop-Tech | Full-Stack Development | Java, .NET, Spring Boot, React",
   location: "Pune, Maharashtra, India",
-  about: `Passionate Software Developer specializing in Full-Stack and Advanced Computing. Currently Software Engineer at MRI Software, focused on building scalable and maintainable backend systems. Skilled in Java, .NET, Spring Boot, and React, with hands-on experience across frontend and backend development. Driven by curiosity, innovation, and a vision to create technology that truly makes an impact.`,
-  email: "prathamesh.hendre@example.com", // Placeholder
+  about: "Passionate Software Developer specializing in Full-Stack and Advanced Computing. Currently Software Engineer at MRI Software, focused on building scalable and maintainable backend systems. Skilled in Java, .NET, Spring Boot, and React, with hands-on experience across frontend and backend development. Previously contributed to AI-driven projects during my internship at The Data Tech Labs. Driven by curiosity, innovation, and a vision to create technology that truly makes an impact.",
+  email: "prathamesh.hendre@example.com", 
   resumeLink: "#"
 };
 
@@ -31,7 +31,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     platform: "GitHub",
-    url: "https://github.com/prathamesh-hendre", // Inferred from projects
+    url: "https://github.com/prathamesh-hendre", 
     icon: Github,
     label: "View GitHub"
   },
@@ -49,14 +49,14 @@ export const EXPERIENCE: Experience[] = [
     role: "Software Engineer",
     company: "MRI Software",
     period: "Sep 2025 - Present",
-    location: "Pune, Maharashtra, India (Hybrid)",
+    location: "Pune, Maharashtra, India · Hybrid",
     description: [
       "Contributing to cutting-edge solutions in the real estate and financial software space.",
       "Building scalable and maintainable backend systems.",
-      "Collaborating with cross-functional teams to deliver high-quality software."
+      "Collaborating with talented professionals to deliver high-quality software."
     ],
     skills: ["Java", ".NET", "Spring Boot", "React", "Prop-Tech"],
-    logo: "https://picsum.photos/id/1/200/200" 
+    logo: "https://ui-avatars.com/api/?name=MRI&background=0D8ABC&color=fff" 
   },
   {
     id: "tdtl-intern",
@@ -65,12 +65,13 @@ export const EXPERIENCE: Experience[] = [
     period: "Jun 2025 - Aug 2025",
     location: "Pune, Maharashtra, India",
     description: [
-      "Worked on 3 different projects, including an AI development initiative.",
-      "Gained hands-on experience in client interaction and business requirement analysis.",
+      "Worked on 3 different projects, including a project related to AI development.",
+      "Gained hands-on experience in client interaction, improving communication and understanding real-world business requirements.",
       "Built backend architecture from scratch, designing scalable and efficient solutions.",
-      "Adapted quickly to new technologies in a fast-paced environment."
+      "Learned to quickly adapt and pick up new technologies and concepts when required.",
+      "Practiced time management and multitasking to handle multiple responsibilities effectively in a fast-paced environment."
     ],
-    skills: ["Backend Architecture", "AI Integration", "Client Relations", "Time Management"]
+    skills: ["Backend Architecture", "AI Integration", "Client Relations", "Time Management", "Full-Stack Development"]
   }
 ];
 
@@ -80,33 +81,33 @@ export const PROJECTS: Project[] = [
     title: "NextGen TalentHub",
     role: "Full Stack & AI Integration",
     period: "Mar 2025 - May 2025",
-    description: "An AI-driven recruitment and career intelligence platform bridging the gap between talents and recruiters using intelligent automation.",
+    description: "An AI-driven recruitment and career intelligence platform bridging the gap between talents and recruiters using intelligent automation, resume analytics, and interview evaluation. The system supports three roles — Admin, Recruiter, and Talent — each with personalized dashboards.",
     features: [
-      "AI Resume Review with automatic PDF parsing and ATS feedback.",
-      "Skill Gap Analysis using ML models.",
-      "AI Interview Bot for mock interviews and evaluations.",
-      "SQL Chatbot for natural language database querying.",
-      "Three-role system: Admin, Recruiter, Talent."
+      "AI Resume Review – Automatic PDF parsing, ATS feedback, and summary generation.",
+      "Skill Gap Analysis – Identifies missing skills for target roles using ML models.",
+      "AI Interview Bot – Conducts mock interviews, evaluates responses, and generates a digital Skill Passport.",
+      "SQL Chatbot – Conversational interface for querying the database using natural language.",
+      "Salary & Cultural Insights – Provides real-time benchmarking and workplace culture guidance."
     ],
-    techStack: ["React.js", "Django REST", "MySQL", "TensorFlow", "Redis", "AWS", "DeepFace"],
+    techStack: ["React.js", "Django REST", "MySQL", "TensorFlow", "Transformers", "Redis", "AWS", "DeepFace"],
     githubUrl: "https://github.com/NextGen-TalentHub/backend",
-    image: "https://picsum.photos/id/60/800/400"
+    image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1000&auto=format&fit=crop"
   },
   {
     id: "taskbuddy",
     title: "TaskBuddy",
     role: "Full Stack Developer",
     period: "Dec 2024 - Feb 2025",
-    description: "A full-fledged web service connecting customers with taskers for household and skilled tasks (cleaning, moving, repairs).",
+    description: "A full-fledged web service connecting customers with taskers for various household and skilled tasks like cleaning, moving, and repairs. Addresses the real-world challenge of finding trusted help on-demand.",
     features: [
-      "Responsive frontend using React and Bootstrap.",
-      "RESTful APIs with .NET Core for user and booking management.",
-      "SQL Server for efficient data management.",
-      "Admin dashboard for platform oversight."
+      "Responsive and intuitive frontend using React and Bootstrap.",
+      "RESTful APIs with .NET Core to manage user data, tasker profiles, and bookings.",
+      "SQL Server for efficient data management and optimized database performance.",
+      "Admin dashboard to facilitate user, tasker, and booking management."
     ],
-    techStack: ["React", ".NET Core", "SQL Server", "REST APIs", "Bootstrap"],
+    techStack: ["React", ".NET Core", "SQL Server", "REST APIs", "Bootstrap", "Git"],
     githubUrl: "https://github.com/KD3-J018/CDAC-FINAL-PROJECT-KD3",
-    image: "https://picsum.photos/id/20/800/400"
+    image: "https://images.unsplash.com/photo-1581578731117-104f2a869a30?q=80&w=1000&auto=format&fit=crop"
   }
 ];
 
@@ -114,16 +115,16 @@ export const EDUCATION: Education[] = [
   {
     id: "sunbeam",
     institution: "SunBeam Institute of Information Technology",
-    degree: "Post Graduate Diploma, Computer Science (CDAC)",
+    degree: "PG Diploma in Advanced Computing (PG-DAC)",
     period: "Aug 2024 - Feb 2025",
-    details: "Grade A (Project). Secured 76.25% percentile.",
+    details: "Grade A. Secured 76.25% percentile. Comprehensive learning in Java, .NET, Database Technologies, Web-based Programming, Algorithms & Data Structures.",
   },
   {
     id: "mes-coe",
     institution: "Modern Education Society's College of Engineering",
     degree: "Bachelor of Engineering (Computer Engineering)",
     period: "2020 - 2024",
-    details: "Grade: 71.60. Active in Technical and Non-Technical clubs.",
+    details: "Grade: 71.60. Active in Technical and Non-Technical clubs and cultural programs.",
   }
 ];
 
@@ -144,28 +145,28 @@ export const CERTIFICATIONS: Certification[] = [
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {
-    category: "Backend",
-    icon: Server,
-    skills: ["Java", "Spring Boot", "Spring MVC", "Spring Security", ".NET Framework", ".NET Core", "Hibernate", "RESTful Web Services"]
+    category: "Languages & Core",
+    icon: Code,
+    skills: ["Java", "Core Java", "C#", "Data Structures & Algorithms", "Dynamic Programming"]
   },
   {
-    category: "Frontend",
+    category: "Backend Development",
+    icon: Server,
+    skills: ["Spring Boot", "Spring MVC", "Spring Security", ".NET Framework", "J2EE Web Services", "Hibernate", "RESTful WebServices"]
+  },
+  {
+    category: "Frontend Development",
     icon: Layout,
-    skills: ["React.js", "HTML5", "CSS3", "JavaScript", "Bootstrap", "Tailwind CSS"]
+    skills: ["React.js", "JavaScript", "HTML5", "CSS3", "Bootstrap"]
   },
   {
     category: "Database",
     icon: Database,
-    skills: ["MySQL", "SQL Server", "JDBC", "Database Design"]
+    skills: ["MySQL", "SQL Server", "JDBC", "SQL"]
   },
   {
-    category: "Tools & DevOps",
+    category: "Tools & Process",
     icon: Terminal,
-    skills: ["Git", "GitHub", "Maven", "Postman", "AWS (Basic)", "Docker"]
-  },
-  {
-    category: "Core Concepts",
-    icon: Cpu,
-    skills: ["Data Structures & Algorithms", "OOP", "System Design", "Microservices"]
+    skills: ["Git", "Project Architecture", "Client Relations", "Time Management", "Maven", "Postman"]
   }
 ];
